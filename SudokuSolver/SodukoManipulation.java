@@ -45,6 +45,7 @@ public class SodukoManipulation {
 						sudokuLoad[i][j] = loader.nextInt();
 					}
 				}
+				loader.close();
 			}catch(FileNotFoundException e){
 				System.out.println("The entered filename does not exist.");
 				fileNotFound = true;
@@ -57,6 +58,7 @@ public class SodukoManipulation {
 			}
 		}while(fileNotFound);
 		
+		keyboard.close();
 
 		return sudokuLoad;
 	

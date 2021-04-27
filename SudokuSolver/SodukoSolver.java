@@ -1,9 +1,9 @@
-import java.util.Arrays;
 public class SodukoSolver {
 	
 	public static void main (String[] args) {
 		
 		int[][] soduko = SodukoManipulation.importSoduko();
+		System.out.println("This is the input Sudoku: ");
 		SodukoManipulation.print(soduko);
 		
 		long startTime = System.nanoTime();
@@ -11,10 +11,12 @@ public class SodukoSolver {
 		long endTime = System.nanoTime();
 		double executionTime = endTime - startTime;
 		System.out.println();
+		System.out.println();
+		System.out.println("This is the solved Soduko: ");
 		SodukoManipulation.print(solvedSoduko);
 		System.out.println();
 		System.out.println();
-		System.out.println(executionTime/1000000000 + " s");
+		System.out.println("Execution time: " + executionTime/1000000000 + " seconds");
 		
 	}
 	//Logic to actually solve the sudoku

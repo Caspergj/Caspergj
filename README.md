@@ -1,6 +1,4 @@
-# Welcome to my profile
-
-Feel free to have a look around my page to see different projects i have been working on!
+# Some simple projects i made when i studied Computer Science
 
 <!---
 Caspergj/Caspergj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
